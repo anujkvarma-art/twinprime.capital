@@ -29,11 +29,12 @@
       opacity: 0.98;
     }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (orientation: portrait) {
   img {
-    width: 94vw;       
+    width: auto;
+    height: 55vh;      /* fill more vertical space */
     max-width: none;
-      }
+  }
 }
   </style>
 </head>
